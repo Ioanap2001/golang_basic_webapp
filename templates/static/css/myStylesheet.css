@@ -1,0 +1,94 @@
+/* Globale Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #da9be8;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+/* Stile für den Hauptinhalt */
+main {
+    padding: 20px;
+    background-color: #deabef;
+    color: #c31ce8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stile für die Navigationsleiste */
+.navbar {
+    background-color: #c31ce8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    background-color: #c66fd9;
+    padding: 0.5%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: #deabef;
+}
+
+footer {
+    background-color: #deabef;
+    color: #c31ce8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0.01%;
+    margin-top: 1%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #c31ce8;
+    color: #deabef;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Media-Query für eine responsive Darstellung */
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

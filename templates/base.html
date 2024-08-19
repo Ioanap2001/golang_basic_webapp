@@ -1,0 +1,24 @@
+{{define "base"}}
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Basic WebApp</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/myStylesheet.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        {{template "nav" .}}
+        <main>
+            {{template "main" .}}
+        </main>
+        {{template "footer" .}}
+    </div>
+</body>
+{{end}}
